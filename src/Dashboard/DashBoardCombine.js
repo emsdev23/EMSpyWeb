@@ -5,6 +5,8 @@ import DashboardPage2 from './DashboardPage2'
 import New from './New'
 import DashBoardChillers from './DashBoardChillers/DashBoardChillers'
 import HotWaterTS from './DashBoardFourthPage/HotWaterTS'
+import DashboardEvcharger from './DashBoardEvcharger/DashboardEvcharger'
+import DashboardBatteries from './DashBoardBatteries/DashboardBatteries'
 
 
 
@@ -16,6 +18,10 @@ function DashBoardCombine() {
       
       <DashBoardChillers/>
       <HotWaterTS/>
+       <DashboardBatteries/>
+      <DashboardEvcharger/>
+
+      {/* <DashboardBatteries/> */}
    
        
     </div>
