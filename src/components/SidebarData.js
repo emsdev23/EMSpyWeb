@@ -143,17 +143,18 @@ export const SidebarData = [
             path: '/Status/chillersStatus',
             icon: <SevereColdIcon />,
           },
+          {
+            title: 'NewDashboard',
+            path: '/NewDashboard',
+            icon: <MdSpaceDashboard />,
+          },
+          
         ],
       },
     
      
     
-      // {
-      //   title: 'NewDashboard',
-      //   path: '/NewDashboard',
-      //   icon: <MdSpaceDashboard />,
-      // },
-      
+     
       // {
       //   title: 'ThermalStatus',
       //   path: '/Status/thermalStatus',

@@ -41,8 +41,10 @@ const NavIcon = styled.a`
 //   height: 100vh;
 //   display: flex;
 //   justify-content: center;
+//   overflow-y: auto; 
 //   position: fixed;
 //   top: 0;
+//   padding-top:10%;
 //   left: ${({ sidebar }) => (sidebar ? '0' : '-100%')};
 //   transition: 350ms;
 //   z-index: 10;
@@ -53,7 +55,7 @@ const SidebarWrap = styled.div`
 `;
 
 
-//  moving side bar to right
+ //moving side bar to right
 const SidebarNav = styled.nav`
   background: #15171c;
   width: 300px;
