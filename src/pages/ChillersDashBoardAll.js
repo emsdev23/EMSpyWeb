@@ -1249,7 +1249,7 @@ console.log(chillerLoading_Phase1DateFilter)
             tickInterval: 6 * 1,
         },
         yAxis: {
-            min: 0,
+          
             title: {
                 text: 'Discharge (ckW)'
             }
@@ -1276,7 +1276,19 @@ console.log(chillerLoading_Phase1DateFilter)
               enabled: false, // Disable markers for the series
             },
       
-        },]
+        },
+
+        {
+          name: 'Charge (ckW)',
+          data:chillerfilterDate==null? thermalQuaterlyData.map((value)=>(value.ChargingEnergy)):thermalQuaterlyFilteredData.map((value)=>(value.ChargingEnergy)),
+          //type: 'column'
+         // color:"green",
+          marker: {
+            enabled: false, // Disable markers for the series
+          },
+    
+      },
+]
       };
 
 
